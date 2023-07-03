@@ -104,6 +104,6 @@ def update_bird():
         reset_pipes()
 
 
-SCORES = [] 
+
 while True:
     update()

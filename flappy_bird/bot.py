@@ -12,7 +12,7 @@ class Bot(object):
         self.games = 0  # Game count of current run, incremented after every death
         self.DUMPING_N = 1000  # Number of iterations to dump Q values to JSON after
         self.discount = 1.0
-        self.r = {0: 0, 1: -1000}  # Reward function
+        self.r = {0: 1, 1: -1000}  # Reward function
         self.lr = 0.7
         self.load_qvalues()
         self.last_state = "420_240_0"
